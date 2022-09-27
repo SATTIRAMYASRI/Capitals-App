@@ -1,0 +1,38 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.bg-container {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+.select-container {
+  width: 110px;
+  height: 40px;
+  margin-right: 10px;
+  border-style: solid;
+  border-color: #cbd2d9;
+  border-radius: 5px;
+  color: #1e293b;
+  font-size: 15px;
+  font-weight: bold;
+  outline: none;
+}
+.heading {
+  color: #1e293b;
+  font-size: 22px;
+}
+.para {
+  color: #323f4b;
+  font-size: 20px;
+  font-weight: bold;
+}
